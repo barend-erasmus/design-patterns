@@ -1,16 +1,15 @@
-import { ICarBuilder } from "../interfaces/car-builder";
-import { Car } from "../models/car";
-import { SportEngine } from "../models/sport-engine";
-import { IEngine } from "../interfaces/engine";
+import { ICarBuilder } from '../interfaces/car-builder';
+import { IEngine } from '../interfaces/engine';
+import { Car } from '../models/car';
+import { SportEngine } from '../models/sport-engine';
 
 export class ManualCarBuilder implements ICarBuilder {
 
     private engine: IEngine = null;
     private numberOfSeats: number = null;
 
-    // new SportEngine(1984, 162)
     public build(): Car {
-        return new Car(this.engine, this.numberOfSeats, false);
+        return new Car(this.engine, false, this.numberOfSeats);
     }
 
     public reset(): ICarBuilder {

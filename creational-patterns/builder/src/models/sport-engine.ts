@@ -1,4 +1,4 @@
-import { IEngine } from "../interfaces/engine";
+import { IEngine } from '../interfaces/engine';
 
 export class SportEngine implements IEngine {
 

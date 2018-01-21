@@ -1,5 +1,5 @@
-import { Car } from "../models/car";
-import { IEngine } from "./engine";
+import { Car } from '../models/car';
+import { IEngine } from './engine';
 
 export interface ICarBuilder {
     build(): Car;

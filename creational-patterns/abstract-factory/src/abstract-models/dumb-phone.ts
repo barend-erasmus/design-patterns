@@ -1,5 +1,5 @@
 export interface IDumbPhone {
-    name: string;
     dimensions: string;
+    name: string;
     weight: number;
 }

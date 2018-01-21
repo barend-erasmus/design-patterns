@@ -1,4 +1,4 @@
-import { IShape } from "../interfaces/shape";
+import { IShape } from '../interfaces/shape';
 
 export class Circle implements IShape {
     constructor(

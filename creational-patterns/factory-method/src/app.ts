@@ -1,5 +1,5 @@
-import { ShapeFactory } from "./factories/shape";
-import { IShape } from "./interfaces/shape";
+import { ShapeFactory } from './factories/shape';
+import { IShape } from './interfaces/shape';
 
 const factory: ShapeFactory = new ShapeFactory();
 

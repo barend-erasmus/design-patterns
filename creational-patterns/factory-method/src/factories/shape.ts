@@ -1,6 +1,6 @@
-import { IShape } from "../interfaces/shape";
-import { Circle } from "../models/circle";
-import { Triangle } from "../models/triangle";
+import { IShape } from '../interfaces/shape';
+import { Circle } from '../models/circle';
+import { Triangle } from '../models/triangle';
 
 export class ShapeFactory {
 

@@ -1,6 +1,6 @@
 export interface ISmartPhone {
-    name: string;
     dimensions: string;
+    name: string;
     weight: number;
     wLan: string;
 }
