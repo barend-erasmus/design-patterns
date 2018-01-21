@@ -4,4 +4,8 @@ Factory Method is a creational design pattern that provides an interface for cre
 
 ## Real Life Example
 
-Imagine you are constructing a house and you approach a carpenter for a door. You give the measurement for the door and your requirements, and he will construct a door for you. In this case, the carpenter is a factory of doors. Your specifications are inputs for the factory, and the door is the output or product from the factory.
+As a hiring manager, one would like to employ a full time employee or a part time employee depending on what position is available.
+
+## When to use?
+
+When the client doesn't know what exact sub-class it might need.

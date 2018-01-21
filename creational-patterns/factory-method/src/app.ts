@@ -1,8 +1,8 @@
-import { ShapeFactory } from './factories/shape';
-import { IShape } from './interfaces/shape';
+import { EmployeeFactory } from './factories/employee';
+import { IEmployee } from './interfaces/employee';
 
-const factory: ShapeFactory = new ShapeFactory();
+const factory: EmployeeFactory = new EmployeeFactory();
 
-const shape: IShape = factory.getShape('circle', 'Red');
+const employee: IEmployee = factory.getEmployee('full-time');
 
-console.log(shape.toString());
+console.log(employee.toString());
