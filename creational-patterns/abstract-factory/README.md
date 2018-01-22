@@ -1,6 +1,6 @@
 # Abstract Factory Pattern
 
-Abstract Factory patterns work around a super-factory which creates other factories.
+Using this pattern a framework is defined, which produces objects that follow a general pattern and at runtime this factory is paired with any concrete factory to produce objects that follow the pattern of a factory.
 
 ## Real Life Example
 

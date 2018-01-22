@@ -1,6 +1,6 @@
 # Builder Pattern
 
-Builder pattern builds a complex object using simple objects and using a step by step approach.
+This pattern allows a client object to construct a complex object by specifying only its type and content, being shielded from the details related to the object's representation.
 
 ## Real Life Example
 

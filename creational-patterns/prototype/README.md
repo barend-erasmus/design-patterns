@@ -1,6 +1,6 @@
 # Prototype Pattern
 
-The Prototype Pattern creates new objects, but rather than creating non-initialized objects it returns objects that are initialized with values it copied from a prototype.
+The Prototype design pattern is the one in question. It allows an object to create customized objects without knowing their class or any details of how to create them.
 
 ## Real Life Example
 

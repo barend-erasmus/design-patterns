@@ -23,6 +23,7 @@ async function run() {
                 'builder': 'Builder',
                 'factory-method': 'Factory Method',
                 'prototype': 'Prototype',
+                'singleton': 'Singleton',
             },
         },
     };

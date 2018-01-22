@@ -1,6 +1,6 @@
 # Factory Method Pattern
 
-Factory Method is a creational design pattern that provides an interface for creating objects in superclass, but allow subclasses to alter the type of objects that will be created.
+The Factory method works just the same way: it defines an interface for creating an object, but leaves the choice of its type to the subclasses, creation being deferred at run-time.
 
 ## Real Life Example
 

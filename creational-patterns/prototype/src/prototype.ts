@@ -1,3 +1,3 @@
-export interface Prototype {
+export interface IPrototype {
     clone(): any;
 }

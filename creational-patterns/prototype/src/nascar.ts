@@ -1,6 +1,6 @@
-import { Prototype } from './prototype';
+import { IPrototype } from './prototype';
 
-export class Nascar implements Prototype {
+export class Nascar implements IPrototype {
     constructor(
         public displacement: number,
     ) {
