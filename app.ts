@@ -22,6 +22,7 @@ async function run() {
                 'abstract-factory': 'Abstract Factory',
                 'builder': 'Builder',
                 'factory-method': 'Factory Method',
+                'prototype': 'Prototype',
             },
         },
     };

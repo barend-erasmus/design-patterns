@@ -1,6 +1,6 @@
 # Builder Pattern
 
-Builder is a creational design pattern that lets you produce different types and representations of an object using the same building process. Builder allows constructing complex objects step by step.
+Builder pattern builds a complex object using simple objects and using a step by step approach.
 
 ## Real Life Example
 
@@ -8,4 +8,5 @@ As a manufacturer of automatic tranmission cars, one can manufacture a car with 
 
 ## When to use?
 
-When there could be several flavors of an object and to avoid the constructor telescoping.
+* The creation algorithm of a complex object is independent from the parts that actually compose the object.
+* The system needs to allow different representations for the objects that are being built.

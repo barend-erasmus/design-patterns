@@ -8,4 +8,5 @@ As a hiring manager, one would like to employ a full time employee or a part tim
 
 ## When to use?
 
-When the client doesn't know what exact sub-class it might need.
+* When a class can't anticipate the type of the objects it is supposed to create.
+* When a class wants its subclasses to be the ones to specific the type of a newly created object.
