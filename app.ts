@@ -40,7 +40,7 @@ async function run() {
 
     console.log(`\r\n`);
 
-    const p = childProcess.fork(`./${categoryKey}/${patternKey}/src/app.js`);
+    const p = childProcess.fork(`./dist/${categoryKey}/${patternKey}/src/app.js`);
 
     readlineInterface.close();
 }
