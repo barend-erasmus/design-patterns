@@ -4,10 +4,12 @@ In software engineering, a design pattern is a general repeatable solution to a 
 
 ## Creational Patterns
 
-* [Abstract Factory](https://github.com/barend-erasmus/design-patterns/tree/master/creational-patterns/abstract-factory)
-* [Builder](https://github.com/barend-erasmus/design-patterns/tree/master/creational-patterns/builder)
-* [Factory Method](https://github.com/barend-erasmus/design-patterns/tree/master/creational-patterns/factory-method)
-* [Prototype](https://github.com/barend-erasmus/design-patterns/tree/master/creational-patterns/prototype)
-* [Singleton](https://github.com/barend-erasmus/design-patterns/tree/master/creational-patterns/singleton)
+* [Abstract Factory](http://www.dofactory.com/net/abstract-factory-design-pattern)
+* [Builder](http://www.dofactory.com/net/builder-design-pattern)
+* [Factory Method](http://www.dofactory.com/net/factory-method-design-pattern)
+* [Prototype](http://www.dofactory.com/net/prototype-design-pattern)
+* [Singleton](http://www.dofactory.com/net/singleton-design-pattern)
 
+## Structural Patterns
 
+* [Adapter](http://www.dofactory.com/net/adapter-design-pattern)

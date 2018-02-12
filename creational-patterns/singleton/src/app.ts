@@ -1,5 +1,5 @@
-import { OperatingSystem } from './operating-system';
+import { OperatingSystemSingleton } from './singletons/operating-system';
 
-const operatingSystem: OperatingSystem = OperatingSystem.getInstance();
+const operatingSystemSingleton: OperatingSystemSingleton = OperatingSystemSingleton.getInstance();
 
-console.log(operatingSystem.toString());
+console.log(operatingSystemSingleton.toString());
