@@ -31,6 +31,7 @@ async function run() {
             patterns: {
                 adapter: 'Adapter',
                 facade: 'Facade',
+                flyweight: 'Flyweight',
                 proxy: 'Proxy',
             },
         },

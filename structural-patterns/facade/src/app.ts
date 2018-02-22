@@ -1,5 +1,5 @@
 import { Customer } from './customer';
-import { Mortage } from './facade/mortage';
+import { Mortage } from './facades/mortage';
 
 const mortage: Mortage = new Mortage();
 
