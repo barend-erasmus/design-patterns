@@ -12,6 +12,6 @@ export class Nascar implements IPrototype {
     }
 
     public toString(): string {
-        return `Nascar with ${this.displacement} cc of displacement`;
+        return `Nascar with ${this.displacement} cc of displacement.`;
     }
 }

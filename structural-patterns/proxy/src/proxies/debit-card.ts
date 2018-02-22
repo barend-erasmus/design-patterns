@@ -11,6 +11,6 @@ export class DebitCard {
     }
 
     public toString(): string {
-        return `Balance is ${this.bankAccount.checkBalance()}`;
+        return `Balance is ${this.bankAccount.checkBalance()}.`;
     }
 }

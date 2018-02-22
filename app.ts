@@ -16,6 +16,12 @@ async function run() {
     });
 
     const patterns: {} = {
+        'behavioral-patterns': {
+            name: 'Behavioral Patterns',
+            patterns: {
+                'chain-of-responsibility': 'Chain of Responsibility',
+            },
+        },
         'creational-patterns': {
             name: 'Creational Patterns',
             patterns: {

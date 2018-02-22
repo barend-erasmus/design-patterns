@@ -15,6 +15,6 @@ export class OperatingSystemSingleton {
     }
 
     public toString(): string {
-        return `Ubuntu 17.10`;
+        return `Ubuntu 17.10.`;
     }
 }

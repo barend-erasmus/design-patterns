@@ -5,11 +5,11 @@ export class Line {
 
     public startCall(): void {
         this.isAvailable = false;
-        console.log(`Call started on line ${this.index}`);
+        console.log(`Call started on line ${this.index}.`);
     }
 
     public endCall(): void {
         this.isAvailable = true;
-        console.log(`Call ended on line ${this.index}`);
+        console.log(`Call ended on line ${this.index}.`);
     }
 }

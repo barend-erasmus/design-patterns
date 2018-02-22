@@ -20,5 +20,5 @@ switch (manufacturer) {
 const smartPhone: ISmartPhone = factory.getSmartPhone();
 const dumbPhone: IDumbPhone = factory.getDumbPhone();
 
-console.log(`Smart phone: ${smartPhone ? smartPhone.name : 'not available'}`);
-console.log(`Dumb phone: ${dumbPhone ? dumbPhone.name : 'not available'}`);
+console.log(`Smart phone: ${smartPhone ? smartPhone.name : 'not available'}.`);
+console.log(`Dumb phone: ${dumbPhone ? dumbPhone.name : 'not available'}.`);

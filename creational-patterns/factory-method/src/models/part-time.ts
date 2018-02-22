@@ -9,6 +9,6 @@ export class PartTimeEmployee implements IEmployee {
     }
 
     public toString(): string {
-        return `Part Time Employee - ${this.hourlyRate} USD per hour`;
+        return `Part Time Employee - ${this.hourlyRate} USD per hour.`;
     }
 }
