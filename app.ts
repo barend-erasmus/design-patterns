@@ -30,6 +30,7 @@ async function run() {
             name: 'Structural Patterns',
             patterns: {
                 adapter: 'Adapter',
+                facade: 'Facade',
                 proxy: 'Proxy',
             },
         },
