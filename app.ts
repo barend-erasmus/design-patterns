@@ -20,6 +20,7 @@ async function run() {
             name: 'Behavioral Patterns',
             patterns: {
                 'chain-of-responsibility': 'Chain of Responsibility',
+                'observer': 'Observer',
                 'strategy': 'Strategy',
             },
         },
