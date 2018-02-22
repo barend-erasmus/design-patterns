@@ -11,5 +11,5 @@ export class FileSystemStorage {
     public write(data: number[]): void {
         console.log(`Write ${data.length} bytes.`);
     }
-    
+
 }

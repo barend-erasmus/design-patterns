@@ -7,9 +7,7 @@ export class GalaxyS8 implements ISmartPhone {
     public weight: number;
     public wLan: string;
 
-    constructor(
-
-    ) {
+    constructor() {
         this.dimensions = '148.9 x 68.1 x 8 mm';
         this.name = 'Galaxy S8';
         this.weight = 155;

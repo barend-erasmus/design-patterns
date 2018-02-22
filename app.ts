@@ -29,9 +29,10 @@ async function run() {
         'structural-patterns': {
             name: 'Structural Patterns',
             patterns: {
-                'adapter': 'Adapter',
+                adapter: 'Adapter',
+                proxy: 'Proxy',
             },
-        }
+        },
     };
 
     const categoryIndexStr: string = await ask(readlineInterface, `Select a category: \r\n\r\n${Object.keys(patterns).map((key, i) => `(${i + 1}) - ${patterns[key].name}`).join('\r\n')}\r\n`);
