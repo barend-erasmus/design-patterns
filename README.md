@@ -5,6 +5,7 @@ In software engineering, a design pattern is a general repeatable solution to a 
 ## Behavioral Patterns
 
 * [Chain of Responsibility](http://www.dofactory.com/net/chain-of-responsibility-design-pattern)
+* [Observer](http://www.dofactory.com/net/observer-design-pattern)
 * [Strategy](http://www.dofactory.com/net/strategy-design-pattern)
 
 ## Creational Patterns
