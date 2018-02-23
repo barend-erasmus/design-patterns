@@ -22,6 +22,7 @@ async function run() {
                 'chain-of-responsibility': 'Chain of Responsibility',
                 'observer': 'Observer',
                 'strategy': 'Strategy',
+                'visitor': 'Visitor',
             },
         },
         'creational-patterns': {
