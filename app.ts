@@ -20,6 +20,9 @@ async function run() {
             name: 'Behavioral Patterns',
             patterns: {
                 'chain-of-responsibility': 'Chain of Responsibility',
+                'command': 'Command',
+                'mediator': 'Mediator',
+                'memento': 'Memento',
                 'observer': 'Observer',
                 'strategy': 'Strategy',
                 'template-method': 'Template Method',
